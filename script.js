@@ -23,7 +23,7 @@ const btn = document.getElementById("submit").addEventListener('click', () => {
     bt.addEventListener('click', () => {
         newtr.remove();
     });
-	bt.class="delete";
+	bt.className="delete";
     td4.appendChild(bt);
     
     newtr.appendChild(td1);
